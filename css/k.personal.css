@@ -1,0 +1,44 @@
+@media (min-width: 200px){
+    #my-page{
+        width:100%;
+        font-family: 'Open Sans', sans-serif;
+    }
+    #my-page header{
+        height: 60px;
+        background-color: #000;
+    }
+    #my-page header nav{
+        margin: 0 auto;
+        width: 80%;
+    }
+    #my-page header ul{
+        display: inline-block;
+        float: right;
+        font-size: 18px;
+        list-style-type: none;
+        margin-top: 17px;
+    }
+    #my-page header ul li{
+        display: inline-block;
+        padding-right: 15px;
+    }
+    #my-page header ul li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    #my-page header ul li a:focus{
+        outline: none;
+    }
+}
+@media (min-width: 480px){
+    
+}
+@media (min-width: 600px){
+    
+}
+@media (min-width: 768px){
+    
+}
+@media (min-width: 1024px){
+    
+}
