@@ -11,3 +11,11 @@ app.directive('content', function(){
 		scope:false
 	}
 });
+
+app.directive('home', function(){
+	return{
+		restrict:'E',
+		templateUrl:'/templates/home.html',
+		scope:false
+	}
+});
